@@ -27,13 +27,13 @@ function getMobileOperatingSystem() {
 function DetectAndServe(){
 
 if (getMobileOperatingSystem() == "Android") {
-    window.location.href = "https://install.mobile.azure.com/orgs/mobile-center-tester-apps/apps/mc-tester-app-android/distribution_groups/internal%20employees"; 
+    window.location.href = "https://install.mobile.azure.com/orgs/app-center/apps/tester-app-android/distribution_groups/wohoo"; 
     }
 if (getMobileOperatingSystem() == "iOS") {
-    window.location.href = "https://install.mobile.azure.com/orgs/mobile-center-tester-apps/apps/mc-tester-app-ios/distribution_groups/internal%20employees";
+    window.location.href = "https://install.mobile.azure.com/orgs/app-center/apps/tester-app-ios/distribution_groups/wohoo";
     }
 if (getMobileOperatingSystem() == "Windows Phone") {
-    window.location.href = "https://install.mobile.azure.com/orgs/mobile-center-tester-apps/apps/mc-tester-app-uwp/distribution_groups/internal%20employees";
+    window.location.href = "https://install.mobile.azure.com";
     }
 if (getMobileOperatingSystem() == "unknown") {
   window.location.href = "http://install.mobile.azure.com";}
